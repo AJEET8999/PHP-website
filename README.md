@@ -1,2 +1,2 @@
 # PHP-website
-Dynamic website where user can upload image with quotes after user log in verification.
+Dynamic website codes where user can upload image with quotes after user log in verification.
