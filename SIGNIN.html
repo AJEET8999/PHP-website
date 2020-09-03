@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> ARTIST's    heART </title>
+	<link rel="icon" type="image/ico" href="logo.png" />
+<style>
+#welcome{
+	text-align:center;
+	font-size:60px;
+}
+body{
+	background-color:rgb(153, 153, 255);
+}
+#main1 {
+  height:54vh;
+  width: 22vw;
+  margin: 3.5vw 30vw auto 37vw;
+  
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 15px;
+  text-align:left;
+  border-radius: 15%;
+  background-color:rgb(230, 230, 230);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#main1:hover {
+  background-color:rgb(217, 217, 217);
+}
+input{
+	height:3vh;
+	width: 13vw;
+	border:none;
+	border-radius:10%;
+}
+#submitbutton{
+	height:7vh;
+	width: 15vw;
+	background-color:rgb(204, 204, 255); 
+	border-radius:20%;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin: 2.2vw auto auto 0.5vw; 
+	font-size: 10px; 
+	color:blue;
+}
+
+.icon{
+    border-radius: 50%;
+	width: 1.3vw;
+	height: 4vh;
+}
+#signinform
+{    
+	margin: auto auto auto 3vw;
+}
+#other_links{
+	text-align:center;
+	color:blue;
+	margin: 0.5vw auto auto auto;
+}
+
+</style>	
+	
+</head>
+<body>
+<h1 id="welcome">Welcome</h1>
+<div id ="main1">
+
+<h1 style="text-align:center">Login</h1><br/>
+
+<form id="signinform" action="signin.php" method="post">
+
+<H3>Username:</H3>
+<input type ="text" name="username" placeholder="Type your username" required><u></u></input></br>
+<H3>Password:</H3>
+<input type ="password" name="password" placeholder="Type your password" required></input></br>
+<button id="submitbutton" type="submit" name="submit"><h1>SUBMIT</h1></button>
+</form>
+
+<div id = "other_links">
+<a href = "signup11.php">Sign Up</a>
+</div>
+
+
+
+</main>
+
+
+</body>
+</html>

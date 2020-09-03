@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>File Upload and view With PHP and MySql</title>
+</head>
+<body>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+<input type="file" name="file" />
+<button type="submit" name="btn-upload">upload</button>
+</form>
+</body>
+</html>
+
+
+<form method = "post">
+		<input type="hidden" name="username" value = "<?php echo $username; ?>" >
+		<input type="hidden" name="password" value = "<?php echo $password; ?>" >
+		<input type="hidden" name="image_name" value = "<?php echo $row['image_name'] ; ?>" >
+		<button name = "like"><i  class="fa fa-thumbs-up" ><? echo $like;?></i> </button>
+
+       <button name="dislike"> <i  class="fa fa-thumbs-down"><? echo $dislike;?></i>  </button>
+	   </form>
